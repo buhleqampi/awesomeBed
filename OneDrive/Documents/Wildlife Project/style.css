@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+}
+.text {
+text-align: center;
+outline-style: double;
+
+}
+body{
+    background-color: #BC6C25;
+    padding: 10px;
+}
+.card {
+margin-bottom: 10px;
+/* display: flex; */
+flex: 50%;
+padding: 2px 4px;
+max-width: 400px;
+justify-content: space-around;
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+/* grid-template-columns: repeat(3, 1fr); */
+/* grid-column-gap: 0.5rem; */
+/* grid-row-gap: 0.5rem; */   
+}
+.row {
+flex-wrap: wrap;
+padding: 5px 4px 2px 4px;
+}
+
+.card img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
